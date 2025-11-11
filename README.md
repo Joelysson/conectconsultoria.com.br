@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conect Consultoria e Assessoria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Conect" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Quem Somos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Defendemos seus direitos no trânsito</h1>
+    <p>Consultoria especializada para proprietários e condutores de veículos</p>
+    <a href="https://wa.me/SEUNUMERO" class="btn">Fale conosco</a>
+  </section>
+
+  <section id="sobre">
+    <h2>Quem Somos</h2>
+    <p>A Conect Consultoria e Assessoria atua na defesa administrativa e jurídica de condutores e proprietários de veículos. Nosso compromisso é garantir agilidade, ética e excelência em cada atendimento.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Defesa de multas de trânsito</li>
+      <li>Recurso de suspensão e cassação de CNH</li>
+      <li>Regularização de documentação veicular</li>
+      <li>Consultoria preventiva para empresas com frota</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco para tirar dúvidas ou agendar atendimento.</p>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Conect Consultoria e Assessoria. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
